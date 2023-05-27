@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e944101661.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- ====== Font-awesome ====== -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <!-- ====== css link ====== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Movies-flix</title>
+</head>
+
+<body>
+    <!-- ====== main-container start ========= -->
+    <div class="main-container">
+        <!-- ===== header start ====== -->
+        <div class="header section">
+            <div class="logo">
+                <a href="#">Movies<span>flix.</span></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" name="" id="Search" placeholder="Search Moves" required><i
+                    class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- ===== header end ====== -->
+        </div>
+        <!-- ===== nav start ====== -->
+        <div class="nav">
+            <ul class="nav-bar">
+                <li><a href="#Home" class="nav-link">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="nav-tittle">Home</span>
+                    </a>
+                </li>
+                <li><a href="#Trending" class="nav-link">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        <span class="nav-tittle">Trending</span>
+                    </a>
+                </li>
+                <li><a href="#Explore" class="nav-link">
+                        <i class="fa-sharp fa-solid fa-compass"></i>
+                        <span class="nav-tittle">Explore</span>
+                    </a>
+                </li>
+                <li><a href="#" class="nav-link">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <span class="nav-tittle">Movies</span>
+                    </a>
+                </li>
+                <li><a href="#" class="nav-link">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="nav-tittle">Favorite</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ===== nav end ====== -->
+        <!-- ======= main-content start ====== -->
+        <div class="main-content">
+            <!-- ======= home section start ====== -->
+            <div class="home section swiper" id="Home">
+                <div class="swiper-wrapper">
+                    <!-- ====== Movies-1 ====== -->
+                    <div class="swiper-slide contain">
+                        <img src="big photo/bg1.jpg" alt="">
+                        <div class="home-text">
+                            <h2>Pirates of the caribbean</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <h5>Watch the trailer <a href="https://youtu.be/-iegkyOcYQ4" target="_blank">Watch Now</a></h5>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-2 ====== -->
+                    <div class="swiper-slide contain">
+                        <img src="big photo/bg2.jpg" alt="">
+                        <div class="home-text">
+                            <h2>Final Destination 5</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <h5>Watch the trailer <a href="https://youtu.be/kociuRANgT4" target="_blank">Watch Now</a></h5>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-3 ====== -->
+                    <div class="swiper-slide contain">
+                        <img src="big photo/bg3.jpg" alt="">
+                        <div class="home-text">
+                            <h2>The Hobbits</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <h5>Watch the trailer <a href="https://youtu.be/iVAgTiBrrDA" target="_blank">Watch Now</a></h5>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-4 ====== -->
+                    <div class="swiper-slide contain">
+                        <img src="big photo/bg4.jpg" alt="">
+                        <div class="home-text">
+                            <h2>Spider-man 3</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <h5>Watch the trailer <a href="https://youtu.be/3LSl4cLiROs" target="_blank">Watch Now</a></h5>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-5 ====== -->
+                    <div class="swiper-slide contain">
+                        <img src="big photo/bg5.jpg" alt="">
+                        <div class="home-text">
+                            <h2>Dracula</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <h5>Watch the trailer <a href="https://youtu.be/_2aWqecTTuE" target="_blank">Watch Now</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- ======= home section end ====== -->
+            <!-- ======= trending section start ====== -->
+            <section class="trending section" id="Trending">
+                <div class="trending-title">
+                    <div class="heading">
+                        <h2>Trending</h2>
+                    </div>
+                </div>
+                <div class="trending-content">
+                    <!-- ====== Movies-1 ====== -->
+                    <div class="trending-img" onclick="window.location.href='index-play.html';">
+                        <img src="movies/images (1).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>League of gods</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="index-play.html"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-2 ====== -->
+                    <div class="trending-img" onclick="window.location.href='index.play2.html';">
+                        <img src="movies/images (2).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Viking Siege</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="index.play2.html"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-3 ====== -->
+                    <div class="trending-img" onclick="window.location.href='index.play3.html';">
+                        <img src="movies/images (3).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Max Steel</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="index.play3.html"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-4 ====== -->
+                    <div class="trending-img" onclick="window.location.href='index.play4.html';">
+                        <img src="movies/images (4).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Aquaman</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="index.play4.html"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-5 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (5).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Shazam</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-6 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (7).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Fantastic 4</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-7 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (8).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>The Northman</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-8 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (9).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Skyrim</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-9 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (10).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>The Witcher</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-10 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (11).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Artemis Flow</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-11 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (13).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>The Dark Tower</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== Movies-12 ====== -->
+                    <div class="trending-img">
+                        <img src="movies/images (15).jpg" alt="">
+                        <div class="trending-text">
+                            <h2>Morbius</h2>
+                            <p>Releasing 10 April</p>
+                            <span>Comedy|Thriler|Drama</span>
+                            <div class="play">
+                                <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ======= trending section end ====== -->
+            <!-- ======= explore section start ====== -->
+            <section class="explore section" id="Explore">
+                <div class="heading">
+                    <h2>Explore</h2>
+                </div>
+                <div class="explore-content swiper">
+                    <div class="swiper-wrapper">
+                        <!-- ====== Movies-1 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (16).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Venom</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-2 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (17).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>The Hobbit</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-3 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (18).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Avatar</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-4 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (19).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>The Mummy</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-5 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (20).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Jumanji</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-6 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (21).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Jack</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-7 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (22).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>The pope's</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-8 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (23).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Raya</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies- 9====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (24).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>The Witcher</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-10 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (25).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>65</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====== Movies-11 ====== -->
+                        <div class="swiper-slide">
+                            <div class="movie-box">
+                                <a href="#" class="overlay"><i class="fa-solid fa-play"></i></a>
+                                <img src="movies/images (26).jpg" alt="" class="movie-img-box">
+                                <div class="box-text">
+                                    <h2>Morbius</h2>
+                                    <p>Releasing 10 April</p>
+                                    <span>Comedy|Thriler|Drama</span>
+                                    <div class="play">
+                                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ======= explore section end ====== -->
+            <!-- ======= next-page ====== -->
+            <div class="next-page">
+                <a href="#">Next Page</a>
+            </div>
+            <!-- ====== copy-right ======= -->
+            <div class="copy-right">
+                <p><i class="fa-solid fa-copyright"></i> All Right Reserved</p>
+            </div>
+        </div>
+        <!-- ======= main-content end ====== -->
+    </div>
+    <!-- ====== main-container end ========= -->
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- ====== link to script ====== -->
+    <script src="script.js"></script>
+</body>
+</html>
