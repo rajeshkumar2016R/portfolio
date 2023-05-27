@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ============ link to font awesome ============= -->
+    <script src="https://kit.fontawesome.com/e944101661.js" crossorigin="anonymous"></script>
+    <!-- =====link to css========= -->
+    <link rel="Stylesheet" href="style.css">
+    <title>Car Website</title>
+</head>
+
+<body>
+    <!-- ========= header-start ========= -->
+    <div class="header" id="header">
+        <!-- ========= nav-start ============ -->
+        <nav>
+            <div class="logo">
+                <img src="images/logo3.png" alt="">
+            </div>
+            <ul class="navbar">
+                <li><a href="#" id="models">Model S</a></li>
+                <li><a href="#" id="modelx">Model X</a></li>
+                <li><a href="#" id="modely">Model Y</a></li>
+                <li><a href="#" id="model3">Model 3</a></li>
+                <li><a href="#" id="modelm">Model M</a></li>
+                <li><a href="#" id="modelv">Model V</a></li>
+                <div id="close-nav">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </ul>
+            <div class="icon">
+                <div class="menu"><i class="fa-solid fa-bars"></i></div>
+                <div class="login"><i class="fa-solid fa-user"></i></div>
+            </div>
+        </nav>
+        <!-- ========= nav-end ============ -->
+        <!-- ========= text-start ============ -->
+        <div class="car-text">
+            <div class="car-specification">
+                <h2><img src="images/images (1).png" alt="">1.9<span>s</span></h2>
+                <p>0.60 mph</p>
+            </div>
+            <div class="car-specification">
+                <h2 id="speed"><span>+</span>250<span>mph</span></h2>
+                <p>Top Speed</p>
+            </div>
+            <div class="car-specification">
+                <h2 id="range">396<span id="sec">s</span></h2>
+                <p>Range</p>
+            </div>
+        </div>
+        <!-- ========= text-end ============ -->
+        <!-- =========== login-form-start =========== -->
+        <div class="login-form">
+            <div class="logo-2">
+                <img src="images/logo3.png" alt="">
+            </div>
+            <div id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <form action="">
+                <div class="flex">
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="check">
+                    <h5><input type="checkbox" id="checkbox">Remember me</h5>
+                    <a href="#" id="forget">Forget Password</a>
+                </div>
+                <input type="submit" name="submit" value="Log In" class="submit">
+                <p>If don't have account?<a href="#">Create one!</a></p>
+            </form>
+        </div>
+        <!-- =========== login-form-end =========== -->
+    </div>
+    <!-- ========= header-end ========= -->
+
+    <!-- =========== link to script ============ -->
+    <script src="script.js"></script>
+</body>
+
+</html>
